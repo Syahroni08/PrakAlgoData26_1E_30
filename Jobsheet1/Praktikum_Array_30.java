@@ -7,7 +7,8 @@ public class Praktikum_Array_30 {
         System.out.println("Program Menghitung IP Semester");
         System.out.println("===============================");
         int jumlahMK = 8;
-        String[] namaMK = { "Pancasila", "Konsep Teknologi Informasi", "Critical Thinking dan Problem Solving", "Matematika Dasar", "Bahasa Inggris", "Dasar Pemrograman", "Praktikum Dasar Pemrograman", "Keselamatan dan Kesehatan Kerja" };
+        String[] namaMK = { "Pancasila", "Konsep Teknologi Informasi", "Critical Thinking dan Problem Solving", 
+        "Matematika Dasar", "Bahasa Inggris", "Dasar Pemrograman", "Praktikum Dasar Pemrograman", "Keselamatan dan Kesehatan Kerja" };
         int[] sks = {2,2,2,3,2,2,3,2};
         double[] nilaiAngka = new double[jumlahMK];
         String[] nilaiHuruf = new String[jumlahMK];
