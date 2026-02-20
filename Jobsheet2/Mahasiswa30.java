@@ -27,6 +27,6 @@ public class Mahasiswa30 {
         }else if (ipk >= 3.0) {
             return "Kinerja cukup";
         }else  {
-            return "Kinerja kurang";        }
+            return "Kinerja kurang";}
     }
 }
