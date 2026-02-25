@@ -1,7 +1,8 @@
 package Jobsheet2;
 
 public class DosenMain30 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
+        
         Dosen30 dosen1 = new Dosen30();
         dosen1.idDosen        = "A4N6";
         dosen1.nama           = "Anang Hermawan";
