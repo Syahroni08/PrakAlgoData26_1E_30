@@ -10,7 +10,7 @@ public class BruteForceDivideConquer {
                 fakto = fakto * i;
             }
             return fakto;
-        }
+        } 
 
         int faktorialDC(int n) {
             if (n == 1) {
