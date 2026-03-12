@@ -85,4 +85,44 @@ public class BruteForceDivideConquer {
             }
         }
     }
+    public static class Sum{
+        double keuntungan[];
+
+        Sum(int el) {
+            keuntungan = new double[el];
+        }
+        double totalBF() {
+            double total = 0;
+            for (int i = 0; i < keuntungan.length; i++) {
+                total = total+keuntungan[i];
+            }
+            return total;
+        }
+        double totalDC(double arr[], int l, int r) {
+            if (l==r) {
+                return arr[l];
+            }
+
+            int mid = (l+r)/2;
+            double lsum = totalDC(arr, l, mid);
+            double rsum = totalDC(arr, mid+1, r);
+            return lsum+rsum;
+        }
+        public static class MainSum{
+            public static void main(String[] args) {
+                Scanner Aroyy = new Scanner(System.in);
+                System.out.print("Masukkan jumlah elemen: ");
+                int elemen = Aroyy.nextInt();
+
+                Sum sm = new Sum(elemen);
+
+                for (int i = 0; i < elemen; i++) {
+                    System.out.print("Masukkan keuntungan ke-" + (i+1) + ": ");
+                    sm.keuntungan[i] = Aroyy.nextDouble();
+                }
+                System.out.println("Total keuntungan menggunakan BruteForce: " + sm.totalBF());
+                System.out.println("Total keuntungan menggunakan Divide and Conquer: " + sm.totalDC(sm.keuntungan, 0, elemen-1));
+            }
+        }
+    }
 }
