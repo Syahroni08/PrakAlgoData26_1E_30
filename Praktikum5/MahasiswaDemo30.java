@@ -36,10 +36,13 @@ public class MahasiswaDemo30 {
         System.out.println("Masukkan ipk mahasiswa yang dicari: ");
         System.out.print("IPK: ");
         double cari = Aroyy.nextDouble();
-        System.out.println("menggunakan sequential searching");
+        System.out.println("------------------------------------");
+        System.out.println("menggunakan binary search");
+        System.out.println("------------------------------------");
+        double posisi2 = list.findBinarySearch(cari, 0, jumMhs);
         double posisi = list.sequentialSearching(cari);
-        int pss = (int) posisi;
-        list.tampilPosisi(cari, pss);
-        list.tampilDataSeacrh(cari, pss);
+        int pss2 = (int) posisi2;
+        list.tampilPosisi(cari, pss2);
+        list.tampilDataSeacrh(cari, pss2);
     }
 }
