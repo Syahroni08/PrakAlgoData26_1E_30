@@ -42,4 +42,6 @@ dari  else if (listMhs[mid].ipk > cari) menjadi else if (listMhs[mid].ipk < cari
 
 6. menentukan data "tidak ada" ketika kondifi if (right >= left) sudah tidak terpenuhi lagi
 
-7. 
+7. <img width="438" height="927" alt="image" src="https://github.com/user-attachments/assets/94fbc49e-08cc-4bb0-9fe1-35faf970560e" />
+
+
