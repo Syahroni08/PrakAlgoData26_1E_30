@@ -6,11 +6,11 @@ public class MahasiswaDemo30 {
     public static void main(String[] args) {
         Scanner Aroyy = new Scanner(System.in);
         MahasiswaBerprestasi30 list = new MahasiswaBerprestasi30();
-        int jumMhs = 5; 
+        int jumMhs = 5;
 
         for (int i = 0; i < jumMhs; i++) {
-            System.out.println("Data Mahasiswa ke-" + (i+1));
-            
+            System.out.println("Data Mahasiswa ke-" + (i + 1));
+
             System.out.print("NIM   : ");
             String nim = Aroyy.nextLine();
 
@@ -36,10 +36,9 @@ public class MahasiswaDemo30 {
         System.out.println("Masukkan ipk mahasiswa yang dicari: ");
         System.out.print("IPK: ");
         double cari = Aroyy.nextDouble();
-
         System.out.println("menggunakan sequential searching");
         double posisi = list.sequentialSearching(cari);
-        int pss = (int)posisi;
+        int pss = (int) posisi;
         list.tampilPosisi(cari, pss);
         list.tampilDataSeacrh(cari, pss);
     }
