@@ -11,7 +11,6 @@ public class MahasiswaDemo30 {
 
         MahasiswaBerprestasi30 list = new MahasiswaBerprestasi30();
         
-
         for (int i = 0; i < jumMhs; i++) {
             System.out.println("Data Mahasiswa ke-" + (i + 1));
 
