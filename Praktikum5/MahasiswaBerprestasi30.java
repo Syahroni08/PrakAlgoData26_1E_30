@@ -15,15 +15,15 @@ public class MahasiswaBerprestasi30 {
     }
 
     void tampil() {
-        for (Mahasiswa30 m : listMhs) {
-            m.tampilInformasi();
+        for (int j = 0; j < idx; j++) {
+            listMhs[j].tampilInformasi();
             System.out.println("-----------------------");
         }
     }
 
     void bubbleSort() {
-        for (int i = 0; i < listMhs.length - 1; i++) {
-            for (int j = 1; j < listMhs.length - i; j++) {
+        for (int i = 0; i < idx - 1; i++) {
+            for (int j = 1; j < idx - i; j++) {
                 if (listMhs[j].ipk > listMhs[j - 1].ipk) {
                     Mahasiswa30 tmp = listMhs[j];
                     listMhs[j] = listMhs[j - 1];
@@ -88,16 +88,17 @@ public class MahasiswaBerprestasi30 {
             System.out.println("Data mahasiswa dengan IPK " + x + " tidak ditemukan");
         }
     }
+
     int findBinarySearch(double cari, int left, int right) {
         int mid;
-        if (right >= left){
-            mid = (left+right)/2;
-            if (cari == listMhs[mid].ipk){
+        if (right >= left) {
+            mid = (left + right) / 2;
+            if (cari == listMhs[mid].ipk) {
                 return (mid);
-            } else if (listMhs[mid].ipk>cari ){
-                return findBinarySearch(cari, left, mid-1);
+            } else if (listMhs[mid].ipk > cari) {
+                return findBinarySearch(cari, left, mid - 1);
             } else {
-                return findBinarySearch(cari, mid+1, right);
+                return findBinarySearch(cari, mid + 1, right);
             }
         }
         return -1;
