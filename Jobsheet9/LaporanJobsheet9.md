@@ -39,3 +39,10 @@
    return output, return biner;
 2. <img width="376" height="108" alt="image" src="https://github.com/user-attachments/assets/61d4307d-ae39-40cd-8a85-f97535b9a352" />
 != yang berarti tidak sama dengan 0 jadi sama saja dengan > atau lebih dari 0
+
+## Latihan Praktikum
+<img width="598" height="234" alt="image" src="https://github.com/user-attachments/assets/79eea6b2-f776-4510-8dbc-7bf241cbef13" />
+
+<img width="446" height="755" alt="image" src="https://github.com/user-attachments/assets/3e650a4f-dded-42d7-8b1f-583c38fe2f38" />
+
+<img width="608" height="905" alt="image" src="https://github.com/user-attachments/assets/957c819a-2295-4cbb-a1fb-5ae49a191235" />
