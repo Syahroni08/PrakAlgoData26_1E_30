@@ -19,7 +19,7 @@ public class StackTugasMahasiswa30 {
         }
     }
 
-    public boolean isEmpaty() {
+    public boolean isEmpty() {
         if (top == -1) {
             return true;
         } else {
@@ -32,12 +32,12 @@ public class StackTugasMahasiswa30 {
             top++;
             stack[top] = mhs;
         } else {
-            System.out.println("Stack penuh! Tidak bisas menambahkan tugas lagi.");
+            System.out.println("Stack penuh! Tidak bisa menambahkan tugas lagi.");
         }
     }
 
     public Mahasiswa30 pop() {
-        if (!isEmpaty()) {
+        if (!isEmpty()) {
             Mahasiswa30 m = stack[top];
             top--;
             return m;
@@ -48,8 +48,8 @@ public class StackTugasMahasiswa30 {
     }
 
     public Mahasiswa30 peek() {
-        if (!isEmpaty()) {
-            return stack[top];
+        if (!isEmpty()) {
+            return stack[0];
         } else {
             System.out.println("Stack kosong! Tidak ada tugas yang dikumpulkan");
             return null;
@@ -61,5 +61,9 @@ public class StackTugasMahasiswa30 {
             System.out.println(stack[i].nama + "\t" + stack[i].nim + "\t" + stack[i].kelas);
         }
         System.out.println("");
+    }
+
+    public int total() {
+        return top + 1;
     }
 }
