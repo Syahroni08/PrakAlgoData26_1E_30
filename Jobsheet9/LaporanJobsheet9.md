@@ -24,4 +24,18 @@
    <img width="190" height="43" alt="image" src="https://github.com/user-attachments/assets/20f0c65c-f50d-4e22-a104-a0b72904bca7" />
 
 ## Praktikum 2
+<img width="547" height="300" alt="image" src="https://github.com/user-attachments/assets/afa404f0-1791-4a07-a885-4064133e9f18" />
 
+<img width="468" height="813" alt="image" src="https://github.com/user-attachments/assets/93549837-8b82-4531-911c-0be0af8fd0da" />
+
+<img width="601" height="175" alt="image" src="https://github.com/user-attachments/assets/1965532c-5009-48dc-a853-79293dd5784a" />
+
+<img width="188" height="335" alt="image" src="https://github.com/user-attachments/assets/c9bbccd6-a667-4edf-9395-607ff12e4d02" />
+
+### Pertanyaan
+1. buat stack, StackKonversi30 stack = new StackKonversi30();
+   loop selama nilai nya > 0, while (nilai > 0), int sisa = nilai % 2;, stack.push(sisa);, nilai = nilai / 2;
+   ambil isi stack, while (!stack.isEmpty())
+   return output, return biner;
+2. <img width="376" height="108" alt="image" src="https://github.com/user-attachments/assets/61d4307d-ae39-40cd-8a85-f97535b9a352" />
+!= yang berarti tidak sama dengan 0 jadi sama saja dengan > atau lebih dari 0
