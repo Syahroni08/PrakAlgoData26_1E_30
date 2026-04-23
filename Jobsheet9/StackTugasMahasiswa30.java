@@ -63,7 +63,7 @@ public class StackTugasMahasiswa30 {
         System.out.println("");
     }
 
-    public int total() {
+    public int total () {
         return top + 1;
     }
 }

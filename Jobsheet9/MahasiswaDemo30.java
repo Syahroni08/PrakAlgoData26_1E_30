@@ -73,6 +73,6 @@ public class MahasiswaDemo30 {
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        } while (pilih >= 1 && pilih <= 6);
+        }while(pilih >= 1 && pilih <= 6);
     }
 }
