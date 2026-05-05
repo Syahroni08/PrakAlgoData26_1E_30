@@ -33,3 +33,13 @@
 
 2. temp.next = temp.next.next, memotong node target dari rantai. temp adalah node sebelum node yang dihapus, jadi dengan melompati node target langsung ke node sesudahnya, node target tidak lagi terhubung ke linked list.
    if (temp.next == null) tail = temp, jika setelah penghapusan temp.next menjadi null, berarti node yang dihapus adalah node terakhir, sehingga tail harus diperbarui ke temp agar tidak menunjuk ke node yang sudah dihapus
+
+## Tugas
+1. <img width="497" height="267" alt="image" src="https://github.com/user-attachments/assets/7082b346-b0d5-4bcf-8c83-e5d64df68798" />
+
+2. <img width="335" height="151" alt="image" src="https://github.com/user-attachments/assets/a5548ab3-7513-472f-9125-a4ed84a77b75" />
+
+3.<img width="582" height="843" alt="image" src="https://github.com/user-attachments/assets/6886ab92-f48d-4cac-ac07-6b727721ed80" />
+<img width="415" height="457" alt="image" src="https://github.com/user-attachments/assets/704de3dd-62ba-4b4b-8b88-d0b2423c14ba" />
+
+4. <img width="589" height="640" alt="image" src="https://github.com/user-attachments/assets/5f66ee77-645c-47c2-9402-bbba93acf0e0" />
