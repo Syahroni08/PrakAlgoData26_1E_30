@@ -72,4 +72,47 @@ public class DoubleLinkedList30 {
             current = current.next;
         }
     }
+
+    public void printReverse() {
+        if (isEmpty()) {
+            System.out.println("Linked list masih kosong.");
+            return;
+        }
+
+        Node30 current = tail;
+        while (current != null) {
+            current.data.tampil();
+            current = current.prev;
+        }
+    }
+
+    public void removeFIrst() {
+        if (isEmpty()) {
+            System.out.println("Linked masih kosong.");
+            return;
+        }
+
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            head = head.next;
+            head.prev = null;
+        }
+    }
+
+    public void removeLast() {
+        if (isEmpty()) {
+            System.out.println("Linked masih kosong.");
+            return;
+        }
+        System.out.println("Data berhasil dihapus.");
+        tail.data.tampil();
+
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            tail = tail.prev;
+            tail.next = null;
+        }
+    }
 }

@@ -54,13 +54,13 @@ public class DoubleLinkedListMain30 {
                     list.insertAfter(keyNIM, dataBaru);
                     break;
 
-                // case 4:
-                //     list.removeFirst();
-                //     break;
+                case 4:
+                    list.removeFIrst();
+                    break;
 
-                // case 5:
-                //     list.removeLast();
-                //     break;
+                case 5:
+                    list.removeLast();
+                    break;
 
                 case 6:
                     list.print();
