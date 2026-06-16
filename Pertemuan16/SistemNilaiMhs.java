@@ -48,6 +48,7 @@ public class SistemNilaiMhs {
         listMK.add(new MataKuliah("00003", "Algoritma dan Pemrograman", 2));
 
         int menu;
+         
         do {
             System.out.println("=================================================");
             System.out.println("SISTEM PENGOLAHAN DATA NILAI MAHASISWA SEMESTER");

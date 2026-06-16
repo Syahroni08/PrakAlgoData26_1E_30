@@ -14,7 +14,7 @@ public class MahasiswaTugas30 {
     public String getNim()     { return nim; }
     public String getNama()    { return nama; }
     public String getTelepon() { return telepon; }
-
+ 
     @Override
     public String toString() {
         return String.format("%-8s %-15s %-10s", nim, nama, telepon);

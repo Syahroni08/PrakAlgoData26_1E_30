@@ -10,7 +10,7 @@ public class MataKuliah30 {
         this.nama = nama;
         this.sks  = sks;
     }
-
+     
     public String getKode() { return kode; }
     public String getNama() { return nama; }
     public int getSks()     { return sks; }
